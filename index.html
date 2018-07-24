@@ -2,8 +2,9 @@
 <head>
 <title>Gobo Redirect</title>
 <script>
-  var redirect = window.location.hash.split('?to=')[1]
+  var projectid = window.location.hash.split('?to=')[1]
+  var redirect = "https://scratch.mit.edu/projects/" + projectid
 </script>
 </head>
-<body onload="window.location.replace('https://scratch.mit.edu/projects/${redirect}/');">
+<body onload="window.location.replace(redirect);">
 </body>
