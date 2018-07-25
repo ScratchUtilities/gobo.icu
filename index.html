@@ -4,9 +4,7 @@
 <script>
 function redirect(){
     var projectid = window.location.search.split('?to=')[1]
-    console.log(projectid)
     var url = "https://scratch.mit.edu/projects/" + projectid
-    console.log(url)
     window.location.replace("https://scratch.mit.edu/projects/" + projectid)
     }
 </script>
