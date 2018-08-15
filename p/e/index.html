@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+<title>Gobo Redirect</title>
+<script>
+function redirect(){
+    var projectid = window.location.search.split('?to=')[1]
+    window.location.replace("https://scratch.mit.edu/projects/" + projectid + "/#editor/")
+    }
+</script>
+</head>
+<body onload="redirect()">
+</body>
