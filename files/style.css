@@ -36,3 +36,18 @@
 .header-image {
 	padding: 5px;
 }
+
+.about-header-text {
+	color: black;
+	font-family: Montserrat;
+	font-weight: bolder;
+}
+
+.about-common-text {
+	color: black;
+	font-family: Montserrat;
+}
+
+#contributor {
+	padding-top: 3%;
+}
