@@ -4,7 +4,7 @@
 
 URL Shortener For Scratch Projects
 
-See [CONTRIBUTING.md](https://github.com/ScratchUtilities/gobo.cf/blob/master/docs/CONTRIBUTING.md)
+See [the contribution guide.](https://github.com/ScratchUtilities/gobo.cf/blob/master/docs/PULL_REQUEST_TEMPLATE.md)
 
 | URL           | Function           |
 | ------------- | ------------------ |
