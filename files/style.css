@@ -1,53 +1,60 @@
 @import url("https://fonts.googleapis.com/css?family=Encode Sans");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900,1000|Questrial");
 #navbar {
-	list-style-type: none;
-	display: table;
- }
+    list-style-type: none;
+    display: table;
+}
 
 #outerNavBar {
-	width: 100%;
-	background-color: #25aff4;
-	margin: 0;
-	position: fixed;
-	top: 0;
-	left: 0;
+    width: 100%;
+    background-color: #25aff4;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
  }
 
-	#outerNavBar a {
-		text-decoration: none;
-		color: white;
-	 }
+    #outerNavBar a {
+        text-decoration: none;
+        color: white;
+    }
 
 .navbar-item:hover, .navbar-item:active {background-color: #219DDB;}
 
 .navbar-item {
-	display: table-cell;
-	padding-left: 8px;
-	padding-right: 8px;
-	color: white;
-	font-family: Montserrat;
-	vertical-align: middle;
-	width: 120px;
- }
+    display: table-cell;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    font-family: Montserrat;
+    vertical-align: middle;
+    width: 120px;
+}
 
-.navbar-text {line-height: 45px;}
+.navbar-text {
+    line-height: 45px;
+    text-align: center;
+}
 
 .header-image {
-	padding: 5px;
+    padding: 5px;
 }
 
 .about-header-text {
-	color: black;
-	font-family: Montserrat;
-	font-weight: bolder;
+    color: black;
+    font-family: Montserrat;
+    font-weight: bolder;
 }
 
 .about-common-text {
-	color: black;
-	font-family: Montserrat;
+    color: black;
+    font-family: Montserrat;
 }
 
 #contributor {
-	padding-top: 3%;
+    padding-top: 3%;
+}
+
+.text-center {
+    text-align: center;
 }
