@@ -20,5 +20,8 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
+**Can you create a fix?**
+If possible, do you know of a way to fix it?
+
 **Additional context**
 Add any other context about the problem here.
