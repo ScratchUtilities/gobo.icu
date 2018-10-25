@@ -4,7 +4,7 @@
 
 URL Shortener For Scratch Projects
 
-See [the contribution guide.](https://github.com/ScratchUtilities/gobo.cf/blob/master/docs/PULL_REQUEST_TEMPLATE.md)
+See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
 
 | URL           | Function           |
 | ------------- | ------------------ |
