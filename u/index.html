@@ -3,7 +3,7 @@
 <title>Gobo Redirect</title>
 <script>
 function redirect(){
-    var username = window.location.search.split('u/')[1]
+    var username = window.location.search.split('?')[1]
     window.location.replace("https://scratch.mit.edu/users/" + username)
     }
 </script>
