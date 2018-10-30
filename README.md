@@ -1,3 +1,6 @@
+
+![GitHub stars](./files/gobo-a.png)
+
 # Gobo.cf
 [![GitHub issues](https://img.shields.io/github/issues/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/issues)
 [![GitHub stars](https://img.shields.io/github/stars/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/stargazers)
