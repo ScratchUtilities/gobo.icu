@@ -18,8 +18,8 @@ Gobo.cf is a URL Shortener For Scratch Projects started by @Thermodynamical
 ## Contributors
 
 Our current contributors:
-* @Chexbox
-* @jokari
-* @RainbowLegend
+* [@Chexbox](https://github.com/Chexbox)
+* [@jokari](https://github.com/jokari)
+* [@RainbowLegend](https://github.com/RainbowLegend)
 
 See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
