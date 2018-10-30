@@ -21,5 +21,8 @@ Our current contributors:
 * [@Chexbox](https://github.com/Chexbox)
 * [@jokari](https://github.com/jokari)
 * [@RainbowLegend](https://github.com/RainbowLegend)
+* [@appy9](https://github.com/appy9)
+* [@Avantika-Didroy](Avantika-Didroy)
+* [@keithieopia](keithieopia)
 
 See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
