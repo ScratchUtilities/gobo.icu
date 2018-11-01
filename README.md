@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/stargazers)
 
 ## What is Gobo.cf?
-Gobo.cf is a URL Shortener For Scratch Projects started by @Thermodynamical
+Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](https://scratch.mit.edu/users/Thermodynamical)
 
 ## Shortened URLs
 
