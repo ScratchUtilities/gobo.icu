@@ -9,7 +9,7 @@
     width: 100%;
     background-color: #25aff4;
     margin: 0;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
  }
@@ -40,7 +40,7 @@
     padding: 5px;
 }
 
-.about-header-text {
+.about-header-text, #shortener h1 {
     color: black;
     font-family: Montserrat;
     font-weight: bolder;
@@ -57,4 +57,36 @@
 
 .text-center {
     text-align: center;
+}
+
+#shortener {
+    margin: 0px auto;
+    text-align: center;
+}
+
+#shortener form {
+    margin: 0px auto;
+    width: 50%;
+    min-width: 400px;
+    border: 3px solid lightgrey;
+    border-radius: 5px;
+}
+
+#shortener form select {
+    display: block;
+    margin: 0px auto;
+}
+
+#shortener form div {
+    margin: 20px;
+}
+
+#shortener form input {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+}
+
+#shortener form label {
+    font-weight: bold;
 }
