@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <head>
-<title>Gobo Redirect</title>
-<script>
-function redirect(){
-    var username = window.location.search.split('?')[1]
-    window.location.replace("https://scratch.mit.edu/users/" + username)
+  <title>Gobo Redirect</title>
+  <script src = "../files/use.js"></script>
+  <script>
+    function user() {
+      var username = window.location.search.split('#')[1];// gobo.cf/u#<id>
+      window.location.replace("https://scratch.mit.edu/users/" + username + "/");
     }
-</script>
+  </script>
 </head>
 <body onload="redirect()">
 </body>

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <head>
-<title>Gobo Redirect</title>
-<script>
-function redirect(){
-    var studioid = window.location.search.split('?')[1]
-    window.location.replace("https://scratch.mit.edu/studios/" + studioid)
+  <title>Gobo Redirect</title>
+  <script src = "../files/use.js"></script>
+  <script>
+    function studio() {
+      var code = window.location.search.split('#')[1];// gobo.cf/s#<id>
+      var studioid = fromB64(code);
+      window.location.replace("https://scratch.mit.edu/studios/" + studioid + "/");
     }
-</script>
+  </script>
 </head>
 <body onload="redirect()">
 </body>

@@ -9,11 +9,11 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 
 | URL           | Function           |
 | ------------- | ------------------ |
-| /u/?to=       | To User Page       |
-| /s/?to=       | To Studio Page     |
-| /p/?to=       | To Project Page    |
-| /p/e/?to=     | To Project Editor  |
-| /d/?to=       | To Topic           |
+| /u#           | To User Page       |
+| /s#           | To Studio Page     |
+| /p#           | To Project Page    |
+| /p/e#         | To Project Editor  |
+| /d#           | To Topic           |
 
 ## Contributors
 
@@ -24,5 +24,6 @@ Our current contributors:
 * [@appy9](https://github.com/appy9)
 * [@Avantika-Didroy](Avantika-Didroy)
 * [@keithieopia](keithieopia)
+* [@space-elephant](https://github.com/space-elephant)
 
 See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
