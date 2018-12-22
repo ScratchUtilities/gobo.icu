@@ -22,6 +22,8 @@ body{
 
 
 .menu-item{
+  text-decoration: none;
+  color: #fff;
   padding: 0 30px;
   float: left;
   line-height: 68px;
