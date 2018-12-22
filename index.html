@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="files/style.css">
-    <title>Gobo.cf - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>gobo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <nav>
-      <ul id="outerNavBar">
-        <ul id="navbar">
-          <img src="files/gobo-a.png" class="header-image" width="50px">
-          <li class="navbar-item">
-            <a href="./">
-              <div class="navbar-text">
-                Home
-              </div>
-            </a>
-          </li>
-          <li class="navbar-item">
-            <a href="./about">
-              <div class="navbar-text">
-                About
-              </div>
-            </a>
-          </li>
-        </ul>
-      </ul>
-    </nav>
-    <input type="text" id="link">
-    <button type="button" onclick="create()">Convert</button>
-    <script src = "files/create.js"></script>
-    <p id = "result"></p>
+    <div class="menu">
+      <div class="menu-align-adjuster">
+        <img class="menu-img unselectable" src="files/gobo-a.png" alt="gobo">
+        <div class="menu-item unselectable">Home</div>
+        <div class="menu-item unselectable">About</div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="page-content-adjuster">
+        <div class="page-content" id="landingPage">
+          <h1>gobo.cf</h1>
+          <h2>URL shortener for <br> Scratch projects</h2>
+          <div class="link-button unselectable" onclick="moveOut();">Shorten URL &emsp; →</div>
+        </div>
+
+        <div class="page-content" id="fillinPage">
+          <h2>Enter Url</h2>
+          <input type="text" class="input-text-page" id="urlInput" onkeydown="if (event.keyCode == 13){document.getElementById('shortUrlOutput').value = (shortenUrl(getElementById('urlInput').value));}"></input>
+          <div id="newUrlLabel">Shorted Url</div>
+          <input onClick="this.select();" type="text" class="input-text-page" id="shortUrlOutput" readonly></input>
+        </div>
+      </div>
+    </div>
+
+
+    <img class="background-gobo" src="files/gobo-color.svg" alt="gobo">
+
+    <script src="homepage-script.js"></script>
+    <script src="urlConverter.js"></script>
   </body>
+</html>
