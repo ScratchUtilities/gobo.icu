@@ -4,11 +4,11 @@ function toB64(num) {
     var result;
     var index;
     if (octal.length%2) {
-	index = 0;
-	result = "";
-    } else {
 	index = 1;
 	result = octal[0];
+    } else {
+	index = 0;
+	result = "";
     }
     while (index < octal.length) {
 	result += chars[chars.indexOf(octal[index])*8+
