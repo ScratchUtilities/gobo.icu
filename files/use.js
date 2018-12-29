@@ -12,7 +12,7 @@ function fromB64(string) {
 function project() {
     var code = String(window.location).split('#')[1];// gobo.cf/p#<id>
     var projectid = fromB64(code);
-    window.location.replace("https://scratch.mit.edu/projects/" + projecct + "/");
+    window.location.replace("https://scratch.mit.edu/projects/" + projectid + "/");
 }
 function editor() {
     var code = String(window.location).split('#')[1];// gobo.cf/p/e#<id>
@@ -28,11 +28,6 @@ function studio() {
     var code = String(window.location).split('#')[1];// gobo.cf/s#<id>
     var studioid = fromB64(code);
     window.location.replace("https://scratch.mit.edu/studios/" + studioid + "/");
-}
-function topic() {
-    var code = String(window.location).split('#')[1];// gobo.cf/d#<id>
-    var topicid = fromB64(code);
-    window.location.replace("https://scratch.mit.edu/discuss/topic/" + topicid + "/");
 }
 function user() {
     var code = String(window.location).split('#')[1];// gobo.cf/u#<username>
