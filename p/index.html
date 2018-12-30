@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <head>
   <title>Gobo Redirect</title>
-  <script src = "../files/use.js"></script>
-  <script>
-    function project() {
-      var code = window.location.search.split('#')[1];// gobo.cf/p#<id>
-      var projectid = fromB64(code);
-      window.location.replace("https://scratch.mit.edu/projects/" + projecct + "/");
-    }
-  </script>
+  <script src="../files/use.js" onload="project()"></script>
 </head>
-<body onload="project()">
-</body>
+<body></body>

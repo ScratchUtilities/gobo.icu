@@ -77,7 +77,7 @@ h2{
 #fillinPage h2{
   border-bottom: none;
   margin: 76px 0px 0px 0px;
-  z-index: 2; 
+  z-index: 2;
   position: absolute;
   background-color: #fff;
   padding: 0 4px 0 0;
@@ -121,7 +121,7 @@ h2{
   font-size: 38px;
   color: #faa32d;
 }
-input, textarea, select { 
+input, textarea, select {
     outline: none;
 }
 
@@ -142,5 +142,3 @@ input, textarea, select {
     -ms-user-select: none;
     user-select: none;
 }
-
-

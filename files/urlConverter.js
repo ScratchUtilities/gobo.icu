@@ -14,7 +14,7 @@ function shortenUrl(url){
 }
 
 function longUrl(url){
-  var urlStarts = 
+  var urlStarts =
   ["https://scratch.mit.edu/users/",
   "https://scratch.mit.edu/projects/",
   "https://scratch.mit.edu/studios/",
@@ -39,6 +39,3 @@ const base62 = {
   decode: chars => chars.split('').reverse().reduce((prev, curr, i) =>
     prev + (base62.charset.indexOf(curr) * (62 ** i)), 0)
 };
-
-
-
