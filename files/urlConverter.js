@@ -6,7 +6,7 @@ function shortenUrl(url){
       if (split[3] == "discuss"){var id = split[5];}else{var id = split[4];}
       type = ["u","p","s","d"][types.indexOf(split[3])]
       if (type != "u"){id=base62.encode(id)}
-      return("https://gobo.cf/" + type + "/" + id)
+      return("https://gobo.cf/" + type + "#" + id)
     }else{return("Unvalid URL")}
   }catch(err){
     return(err);
