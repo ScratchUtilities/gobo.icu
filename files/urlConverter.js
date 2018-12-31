@@ -19,7 +19,8 @@ function longUrl(url){
   "https://scratch.mit.edu/projects/",
   "https://scratch.mit.edu/studios/",
   "https://scratch.mit.edu/discuss/topic/"];
-  return(urlStarts[["u","p","s","d"].indexOf(url.split("/")[3])] + base62.decode(url.split("/")[4]));
+  var data = ((url.split("/")[3]).split("#"));
+  return(urlStarts[["u","p","s","d"].indexOf(data[0])] + base62.decode(data[1]));
 }
 
 const base62 = {
