@@ -1,16 +1,12 @@
 function shortenUrl(url){
-  try{
     var split = url.split("/");
     var types = ["users", "projects", "studios", "discuss"];
     if (types.indexOf(split[3]) >= 0){
       if (split[3] == "discuss"){var id = split[5];}else{var id = split[4];}
-      type = ["u","p","s","d"][types.indexOf(split[3])]
+      var type = ["u","p","s","d"][types.indexOf(split[3])]
       if (type != "u"){id=base62.encode(id)}
-      return("https://gobo.cf/" + type + "/" + id)
+      return("https://gobo.cf/" + type + "#" + id);
     }else{return("Unvalid URL")}
-  }catch(err){
-    return(err);
-  }
 }
 
 function longUrl(url){
@@ -19,7 +15,13 @@ function longUrl(url){
   "https://scratch.mit.edu/projects/",
   "https://scratch.mit.edu/studios/",
   "https://scratch.mit.edu/discuss/topic/"];
-  return(urlStarts[["u","p","s","d"].indexOf(url.split("/")[3])] + base62.decode(url.split("/")[4]));
+  var data = ((url.split("/")[3]).split("#"));
+  var type = urlStarts[["u","p","s","d"].indexOf(data[0])]
+  if(type=="https://scratch.mit.edu/users/"){
+    return(type + data[1]);
+  }else{
+    return(type + base62.decode(data[1]));
+  }
 }
 
 const base62 = {
