@@ -15,12 +15,12 @@ function longUrl(url){
   "https://scratch.mit.edu/projects/",
   "https://scratch.mit.edu/studios/",
   "https://scratch.mit.edu/discuss/topic/"];
-  var data = ((url.split("/")[3]).split("#"));
-  var type = urlStarts[["u","p","s","d"].indexOf(data[0])]
+  var data = (url.split("/"));
+  var type = urlStarts[["u","p","s","d"].indexOf(data[3])]
   if(type=="https://scratch.mit.edu/users/"){
-    return(type + data[1]);
+    return(type + data[4].replace("#", ""));
   }else{
-    return(type + base62.decode(data[1]));
+    return(type + base62.decode(data[4].replace("#", "")));
   }
 }
 
