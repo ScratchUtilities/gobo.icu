@@ -115,6 +115,24 @@ h2{
   font-size: 18px;
   z-index: 0;
 }
+.text-end-button-holder{
+  width: calc(100% - 38px);
+  position: absolute;
+  top: 102px;
+  margin-top: 200px;
+}
+.text-end-button{
+  float: right;
+  height: 74px;
+  width: 100px;
+  background: #1694d3;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+}
+.text-end-button:hover{
+  background: #197daf;
+}
 #shortUrlOutput{
   border: 6px solid #1694d3;
   margin-top: 200px;

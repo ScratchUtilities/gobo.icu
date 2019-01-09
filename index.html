@@ -28,6 +28,7 @@
           <input type="text" class="input-text-page" id="urlInput" onkeydown="if (event.keyCode == 13){document.getElementById('shortUrlOutput').value = (shortenUrl(getElementById('urlInput').value));}"></input>
           <div id="newUrlLabel">Shorted Url</div>
           <input onClick="this.select();" type="text" class="input-text-page" id="shortUrlOutput" readonly></input>
+          <div class="text-end-button-holder"><button type="button" class="text-end-button" onclick="document.getElementById('shortUrlOutput').select();document.execCommand('copy');">Copy</button></div>
         </div>
       </div>
     </div>
