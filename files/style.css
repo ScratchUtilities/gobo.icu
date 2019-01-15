@@ -152,6 +152,38 @@ input, textarea, select {
   bottom: -100px;
 }
 
+.text-center {text-align: center;}
+
+/*Style for Contributors on About Page*/
+.contrib-user-holder{
+  width: 100%;
+}
+.contrib-user-align{
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 20px 0 20px;
+}
+.contrib-user{
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+}
+.contrib-user-pic{
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+.contrib-user-pic-big{
+  width: 120px;
+  height: 120px;
+}
+.contrib-user-name{
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: #000;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -160,5 +192,3 @@ input, textarea, select {
     -ms-user-select: none;
     user-select: none;
 }
-
-.text-center {text-align: center;}
