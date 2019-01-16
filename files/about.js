@@ -18,3 +18,4 @@ function spawnUser(){
       document.getElementById("contrib-users-put").appendChild(crElmCU);
     }
   }
+}
