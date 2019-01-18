@@ -12,7 +12,7 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 | /u#           | To User Page       |
 | /s#           | To Studio Page     |
 | /p#           | To Project Page    |
-| /p/e#         | To Project Editor  |
+| /e#           | To Project Editor  |
 | /d#           | To Topic           |
 
 ## Contributors
