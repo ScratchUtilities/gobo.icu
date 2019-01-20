@@ -147,8 +147,9 @@ select {
 .background-gobo {
   z-index: -1;
   position: fixed;
-  height: 800px;
-  width: auto;
+  height: auto;
+  max-width: 80%;
+  width: 680px;
   right: -50px;
   bottom: -100px;
 }
