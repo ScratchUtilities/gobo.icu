@@ -9,7 +9,7 @@ function shortenUrl(url) {
     }
     var type = ["u", "p", "s", "d"][types.indexOf(split[3])];
     if (type != "u") {
-      id = base62.encode(id);
+      id = base64.encode(id);
     }
     if (type == "p" && split[5] == "editor") {
       return "https://gobo.cf/e#" + id;
@@ -37,26 +37,26 @@ function longUrl(url) {
     if (type == "editor") {
       return (
         "https://scratch.mit.edu/projects/" +
-        base62.decode(data[4].replace("#", "")) +
+        base64.decode(data[4].replace("#", "")) +
         "/editor"
       );
     } else {
-      return type + base62.decode(data[4].replace("#", ""));
+      return type + base64.decode(data[4].replace("#", ""));
     }
   }
 }
 
-const base62 = {
+const base64 = {
   charset: "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_".split(
     ""
   ),
   encode: integer => {
     if (integer === 0) {
-      return 0;
+      return "0";
     }
     let s = [];
     while (integer > 0) {
-      s = [base62.charset[integer % 62], ...s];
+      s = [base64.charset[integer % 62], ...s];
       integer = Math.floor(integer / 62);
     }
     return s.join("");
@@ -66,7 +66,7 @@ const base62 = {
       .split("")
       .reverse()
       .reduce(
-        (prev, curr, i) => prev + base62.charset.indexOf(curr) * 62 ** i,
+        (prev, curr, i) => prev + base64.charset.indexOf(curr) * 62 ** i,
         0
       )
 };
