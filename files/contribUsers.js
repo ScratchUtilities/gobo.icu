@@ -10,6 +10,7 @@ var contribUsersList = {
     "RainbowLegend",
     "Avantika-Didroy",
     "jokari"
+    "Arav"
   ],
 
   content: {
@@ -60,6 +61,7 @@ var contribUsersList = {
       username: "jokari",
       userid: "11021734",
       link: "https://github.com/jokari"
+      
     }
   }
 };
