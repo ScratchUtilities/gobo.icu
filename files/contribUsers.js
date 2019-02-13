@@ -65,7 +65,7 @@ var contribUsersList = {
     IamTregsthedev: {
       username: "Arav Narula",
       userid: "21000033",
-      link: "https://github.com/IamTregsthedev",
+      link: "https://github.com/IamTregsthedev"
     }
   }
 };
