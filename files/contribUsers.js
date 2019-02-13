@@ -5,12 +5,12 @@ var contribUsersList = {
     "Chexbox",
     "br",
     "space-elephant",
+    "IamTregsthedev",
     "ncomendant",
     "appy9",
     "RainbowLegend",
     "Avantika-Didroy",
-    "jokari",
-    "IamTregsthedev"
+    "jokari"
   ],
 
   content: {
@@ -66,7 +66,6 @@ var contribUsersList = {
       username: "Arav Narula",
       userid: "21000033",
       link: "https://github.com/IamTregsthedev",
-      team: "1"
     }
   }
 };
