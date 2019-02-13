@@ -9,8 +9,8 @@ var contribUsersList = {
     "appy9",
     "RainbowLegend",
     "Avantika-Didroy",
-    "jokari"
-    "Arav"
+    "jokari",
+    "IamTregsthedev"
   ],
 
   content: {
@@ -61,7 +61,11 @@ var contribUsersList = {
       username: "jokari",
       userid: "11021734",
       link: "https://github.com/jokari"
-      
+    },
+    IamTregsthedev: {
+      username: "IamTregsthedev",
+      userid: "21000033",
+      link: "https://github.com/IamTregsthedev"
     }
   }
 };
