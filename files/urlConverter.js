@@ -14,36 +14,35 @@ function shortenUrl(url) {
 	    id = base62.encode(id);
 	}
 	if (type == "p" && split[5] == "editor") {
-	    return "https://gobo.cf/e#" + id;
+	    return "https://gobo.cf#e" + id;
 	} else {
-	    return "https://gobo.cf/" + type + "#" + id;
+	    return "https://gobo.cf#" + type + id;
 	}
     } else {
 	return "Invalid URL";//it's invalid, not unvalid.
     }
 }
 
-function longUrl(url) {
-    var urlStarts = [
+function longUrl(hash) {
+    var urlStarts = {
 	"u": "https://scratch.mit.edu/users/",
 	"p": "https://scratch.mit.edu/projects/",
 	"e": "editor",
 	"s": "https://scratch.mit.edu/studios/",
 	"d": "https://scratch.mit.edu/discuss/topic/"
-    ];
-    var data = url.split("/");
-    var type = urlStarts[data[3]];
+    };
+    var type = urlStarts[hash[1]];
     if (type == "https://scratch.mit.edu/users/") {
-	return type + data[4].replace("#", "");
+	return type + hash.substring(2);
     } else {
 	if (type == "editor") {
 	    return (
 		"https://scratch.mit.edu/projects/" +
-		    base62.decode(data[4].replace("#", "")) +
+		    base62.decode(hash.substring(2)) +
 		    "/editor"
 	    );
 	} else {
-	    return type + base62.decode(data[4].replace("#", ""));
+	    return type + base62.decode(hash.substring(2));
 	}
     }
 }
@@ -72,3 +71,6 @@ const base62 = {
             0
 	)
 };
+if (window.location.hash != "") {
+    window.location.replace(longUrl(window.location.hash));
+}
