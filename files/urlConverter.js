@@ -13,10 +13,10 @@ function shortenUrl(url) {
     if (type != "u") {
       id = base64.encode(id);
     }
-    if (type == "p" && split[5] == "editor") {
-      return "https://gobo.cf#e" + id;
+    if (type == "p" && split[5] == "editor") {//http is shorter, it works
+      return "http://gobo.cf#e" + id;
     } else {
-      return "https://gobo.cf#" + type + id;
+      return "http://gobo.cf#" + type + id;
     }
   } else {
     return "Invalid URL"; //it's invalid, not unvalid.

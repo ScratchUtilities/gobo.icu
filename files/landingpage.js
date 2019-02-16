@@ -10,7 +10,7 @@ function moveOut() {
       elem.style.display = "none";
       clearInterval(id);
     } else {
-      pos = pos*1.02;
+      pos *= 1.02;
       elem.style.top = pos + 'px';
     }
   }
