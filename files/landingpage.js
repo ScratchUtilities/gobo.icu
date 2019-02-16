@@ -1,5 +1,3 @@
-
-
 function moveOut() {
   var elem = document.getElementById("landingPage");
   var pos = 50;
@@ -11,7 +9,7 @@ function moveOut() {
       clearInterval(id);
     } else {
       pos *= 1.02;
-      elem.style.top = pos + 'px';
+      elem.style.top = pos + "px";
     }
   }
 }
@@ -19,15 +17,15 @@ function moveOut() {
 function moveIn(moveStart) {
   var elem = document.getElementById("fillinPage");
   var pos = moveStart;
-  elem.style.top = pos + 'px';
+  elem.style.top = pos + "px";
   elem.style.display = "initial";
   var id = setInterval(frame, 2);
   function frame() {
     if (pos < 50) {
       clearInterval(id);
     } else {
-      pos = pos/1.02;
-      elem.style.top = pos + 'px';
+      pos = pos / 1.02;
+      elem.style.top = pos + "px";
     }
   }
 }
