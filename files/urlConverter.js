@@ -3,7 +3,7 @@ function shortenUrl(url) {
     // do you know what dictionarries are for?
     var types = {"users": "u", "projects": "p", "studios": "s", "discuss": "d"};
     var id;
-    if (types.indexOf(split[3]) >= 0) {
+    if (types[split[3]] !== undefined) {
 	if (split[3] == "discuss") {
 	    id = split[5];
 	} else {
