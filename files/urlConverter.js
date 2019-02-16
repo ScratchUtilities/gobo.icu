@@ -13,7 +13,8 @@ function shortenUrl(url) {
     if (type != "u") {
       id = base64.encode(id);
     }
-    if (type == "p" && split[5] == "editor") {//http is shorter, it works
+    if (type == "p" && split[5] == "editor") {
+      //http is shorter, it works
       return "http://gobo.cf#e" + id;
     } else {
       return "http://gobo.cf#" + type + id;
