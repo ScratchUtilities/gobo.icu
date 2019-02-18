@@ -55,15 +55,15 @@ body {
 }
 #landingPage {
   transform: translateY(0%);
-  transition: transform 0.5s;
+  transition: transform 1s;
 }
 #landingPage.move-out {
   transform: translateY(100vh);
 }
 #fillinPage {
   transform: translateY(100vh);
-  transition: transform 0.5s;
-  transition-delay: 0.5s;
+  transition: transform 1s;
+  transition-delay: 0.75s;
   width: 100%;
 }
 #fillinPage.move-in {
