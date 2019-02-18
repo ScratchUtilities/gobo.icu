@@ -161,7 +161,7 @@ select {
   max-width: 80%;
   width: 680px;
   right: -50px;
-  top: 32px;
+  bottom: -100px;
 }
 
 .text-center {
