@@ -57,16 +57,16 @@ body {
   transform: translateY(0%);
   transition: transform 0.5s;
 }
-.move-out {
-  transform: translateY(100vw);
+#landingPage.move-out {
+  transform: translateY(100vh);
 }
 #fillinPage {
-  transform: translateY(100vw);
+  transform: translateY(100vh);
   transition: transform 0.5s;
   transition-delay: 0.5s;
   width: 100%;
 }
-.move-in {
+#fillinPage.move-in {
   transform: translateY(0%);
 }
 h1 {
