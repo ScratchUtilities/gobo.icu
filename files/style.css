@@ -53,12 +53,22 @@ body {
   width: 360px;
   position: absolute;
 }
-
+#landingPage {
+  transform: translateY(0%);
+  transition: transform 1s;
+}
+#landingPage.move-out {
+  transform: translateY(100vh);
+}
 #fillinPage {
-  display: none;
+  transform: translateY(100vh);
+  transition: transform 1s;
+  transition-delay: 0.75s;
   width: 100%;
 }
-
+#fillinPage.move-in {
+  transform: translateY(0%);
+}
 h1 {
   font-size: 98px;
   margin-bottom: 12px;
