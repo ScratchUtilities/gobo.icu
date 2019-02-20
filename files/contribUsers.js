@@ -2,10 +2,11 @@ var contribUsersList = {
   "content-order": [
     "KennethSweezy",
     "Andreto",
-    "Chexbox",
-    "br",
     "space-elephant",
+    "br",
     "IamTregsthedev",
+    "jamesbmadden",
+    "Chexbox",
     "ncomendant",
     "appy9",
     "RainbowLegend",
@@ -23,49 +24,62 @@ var contribUsersList = {
     Andreto: {
       username: "Andreto",
       userid: "28541538",
-      link: "https://andreto.github.io",
+      link: "https://andreto.tk",
       team: "1"
     },
     Chexbox: {
       username: "Chexbox",
       userid: "31783961",
       link: "https://github.com/Chexbox",
-      team: "1"
+      team: "0"
     },
     "space-elephant": {
       username: "space-elephant",
       userid: "45874738",
-      link: "https://github.com/space-elephant"
+      link: "https://github.com/space-elephant",
+      team: "1"
     },
     ncomendant: {
       username: "ncomendant",
       userid: "3222456",
-      link: "https://github.com/ncomendant"
+      link: "https://github.com/ncomendant",
+      team: "0"
     },
     appy9: {
       username: "appy9",
       userid: "15341869",
-      link: "https://github.com/appy9"
+      link: "https://github.com/appy9",
+      team: "0"
     },
     RainbowLegend: {
       username: "RainbowLegend",
       userid: "26859432",
-      link: "https://github.com/RainbowLegend"
+      link: "https://github.com/RainbowLegend",
+      team: "0"
     },
     "Avantika-Didroy": {
       username: "Avantika-Didroy",
       userid: "44540293",
-      link: "https://github.com/Avantika-Didroy"
+      link: "https://github.com/Avantika-Didroy",
+      team: "0"
     },
     jokari: {
       username: "jokari",
       userid: "11021734",
-      link: "https://github.com/jokari"
+      link: "https://github.com/jokari",
+      team: "0"
     },
     IamTregsthedev: {
       username: "Arav Narula",
       userid: "21000033",
-      link: "https://github.com/IamTregsthedev"
+      link: "https://github.com/IamTregsthedev",
+      team: "0"
+    },
+    jamesbmadden: {
+      username: "jamesbmadden",
+      userid: "39145924",
+      link: "https://github.com/jamesbmadden",
+      team: "0"
     }
   }
 };

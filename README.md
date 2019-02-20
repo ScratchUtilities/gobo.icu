@@ -27,7 +27,9 @@ Our current contributors:
 - [@appy9](https://github.com/appy9)
 - [@Avantika-Didroy](Avantika-Didroy)
 - [@keithieopia](keithieopia)
+- [@Andreto](https://andreto.tk)
 - [@space-elephant](https://github.com/space-elephant)
 - [@Tregsthedev](https://github.com/Iamtregsthedev)
+- [@jamesbmadden](https://github.com/jamesbmadden)
 
 See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
