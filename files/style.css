@@ -65,11 +65,11 @@ body {
   transition: transform 1s;
   transition-delay: 0.75s;
   width: 100%;
-  display: none;
+  visibility: hidden;
 }
 #fillinPage.move-in {
   transform: translateY(0%);
-  display: inherit;
+  visibility: visible;
 }
 h1 {
   font-size: 98px;
