@@ -164,6 +164,8 @@ select {
   width: 680px;
   right: -50px;
   bottom: -100px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 .text-center {
