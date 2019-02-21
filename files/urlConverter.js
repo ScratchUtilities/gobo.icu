@@ -15,9 +15,9 @@ function shortenUrl(url) {
     }
     if (type == "p" && split[5] == "editor") {
       //http is shorter, it works
-      return "http://gobo.cf#e" + id;
+      return "gobo.cf#e" + id;
     } else {
-      return "http://gobo.cf#" + type + id;
+      return "gobo.cf#" + type + id;
     }
   } else {
     return "Invalid URL"; //it's invalid, not unvalid.
