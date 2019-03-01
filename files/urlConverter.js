@@ -1,6 +1,8 @@
 function shortenUrl(url) {
-  if (url.includes("scratch.mit.edu/")){
-    var split = url.substr((url.indexOf("scratch.mit.edu/") + 16), url.length).split("/");
+  if (url.includes("scratch.mit.edu/")) {
+    var split = url
+      .substr(url.indexOf("scratch.mit.edu/") + 16, url.length)
+      .split("/");
     var types = { users: "u", projects: "p", studios: "s", discuss: "d" };
     var id;
     if (split[0] == "discuss") {
