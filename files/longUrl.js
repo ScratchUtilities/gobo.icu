@@ -21,7 +21,7 @@ function longUrl(hash) {
     }
   }
 }
-
+if (window.location.hash === "") {
   window.location.replace("./homepage.html");
 } else {
   window.location.replace(longUrl(window.location.hash));
