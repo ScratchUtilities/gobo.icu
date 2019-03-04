@@ -1,62 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="./files/urlConverter.js"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>URL shortener for Scratch</title>
-    <link href="./files/style.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" href="./files/gobo.ico">
-    <script type="text/javascript">window.liveSettings={api_key:"e31a35f5d51f482d9e9515e1da377916"}</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+    <script src="./files/longUrl.js"></script>
+    <title>Redirecting</title>
   </head>
   <body>
-    <div class="menu">
-      <div class="menu-align-adjuster">
-        <img class="menu-img unselectable" src="./files/goboWhite.png" alt="gobo">
-        <a href="#" class="menu-item unselectable">Home</a>
-        <a href="./about/" class="menu-item unselectable">About</a>
-      </div>
-    </div>
-
-    <div class="page">
-      <div class="page-content-adjuster">
-        <div class="page-content" id="landingPage">
-          <h1>gobo.cf</h1>
-          <h2>
-	    URL shortener for <br/>
-	    Scratch projects, users, studios and discussions.
-	  </h2>
-          <div class="link-button unselectable" onclick="moveOut();">Shorten URL &emsp; &rarr;</div>
-        </div>
-        <div class="page-content" id="fillinPage">
-          <h2>Enter Url</h2>
-          <input type="text" class="input-text-page" id="urlInput" onkeydown="if (event.keyCode === 13 || event.keyCode === 10){document.getElementById('shortUrlOutput').value = (shortenUrl(document.getElementById('urlInput').value));}"></input>
-          <div id="newUrlLabel">Shorted Url</div>
-          <input onClick="this.select();" type="text" class="input-text-page" id="shortUrlOutput" readonly></input>
-          <div class="text-end-button-holder"><button type="button" class="text-end-button" onclick="document.getElementById('shortUrlOutput').select();document.execCommand('copy');">Copy</button></div>
-        </div>
-      </div>
-    </div>
-
-
-    <img class="background-gobo" src="/files/gobo-color.svg" alt="gobo">
-    <script src="./files/landingpage.js"></script>
-    <!-- Default Statcounter code for Gobo.cf https://gobo.cf -->
-    <!-- accelerate main page -->
-
-<script type="text/javascript">
-var sc_project=11929476;
-var sc_invisible=1;
-var sc_security="81814c60";
-var sc_https=1;
-var sc_remove_link=1;
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js" async></script>
-<noscript><div class="statcounter"><img class="statcounter"
-src="https://c.statcounter.com/11929476/0/81814c60/1/" alt="hit
-counter"></div></noscript>
-<!-- End of Statcounter Code -->
+    <h1>Redirecting<noscript> when you enable javascript</noscript>.</h1>
   </body>
 </html>
