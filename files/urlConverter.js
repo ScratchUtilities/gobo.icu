@@ -1,26 +1,26 @@
 function shortenUrl(url) {
-  var split = url.split("/");
-  // do you know what dictionarries are for?
-  var types = { users: "u", projects: "p", studios: "s", discuss: "d" };
-  var id;
-  if (types[split[3]] !== undefined) {
-    if (split[3] == "discuss") {
-      id = split[5];
+  if (url.includes("scratch.mit.edu/")) {
+    var split = url
+      .substr(url.indexOf("scratch.mit.edu/") + 16, url.length)
+      .split("/");
+    var types = { users: "u", projects: "p", studios: "s", discuss: "d" };
+    var id;
+    if (split[0] == "discuss") {
+      id = split[2];
     } else {
-      id = split[4];
+      id = split[1];
     }
-    var type = types[split[3]]; //split[3][0]//["u", "p", "s", "d"][types.indexOf(split[3])];
+    var type = types[split[0]];
     if (type != "u") {
       id = base64.encode(id);
     }
-    if (type == "p" && split[5] == "editor") {
-      //http is shorter, it works
+    if (type == "p" && split[2] == "editor") {
       return "http://gobo.cf#e" + id;
     } else {
       return "http://gobo.cf#" + type + id;
     }
   } else {
-    return "Invalid URL"; //it's invalid, not unvalid.
+    return "Invalid URL";
   }
 }
 
