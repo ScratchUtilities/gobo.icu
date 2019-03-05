@@ -1,16 +1,30 @@
 function shortenUrl(url) {
     if (url.includes("scratch.mit.edu/")) {
 	var split = url
-	    .substr(url.indexOf("scratch.mit.edu/") + 16, url.length)
+	    .substring(url.indexOf("scratch.mit.edu/") + 16, url.length)
 	    .split("/");
-	var types = { users: "u", projects: "p", studios: "s", discuss: "d" };
+	var types = {
+	    users: "u",
+	    projects: "p",
+	    studios: "s",
+	    discuss: "d",
+	    post: "o"
+	};
 	var id;
+	var type = types[split[0]];
 	if (split[0] == "discuss") {
 	    id = split[2];
+	    if (split[1] === "post") {// post
+		type = "o";
+	    }
+	    if (url.includes("#")[1]) {// topic, but with post hash
+		return "http://gobo.cf#o" + base64.encode(
+		    url.split("#")[1].substring(5)
+		)
+	    }
 	} else {
 	    id = split[1];
 	}
-	var type = types[split[0]];
 	if (type != "u") {
 	    id = base64.encode(id);
 	}
