@@ -202,6 +202,32 @@ select {
   color: #000;
 }
 
+/*Language Select Styling*/
+.txlive-langselector {
+  background-color: #25aff4 !important;
+  left: 20px !important;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+.txlive-langselector-toggle {
+  border-bottom: none !important;
+}
+.txlive-langselector-list {
+  border-radius: 0px !important;
+  webkit-border-radius: 0px !important;
+  border-top: none !important;
+  box-shadow: none !important;
+  bottom: 36px !important;
+  padding: 0px !important;
+  background-color: #25aff4 !important;
+  color: #fff !important;
+}
+.txlive-langselector-list > li:hover {
+  background-color: #1694d3 !important;
+}
+
+/*general setup*/
 .unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
