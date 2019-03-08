@@ -201,6 +201,63 @@ select {
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: #000;
 }
+/*checkbox styling*/
+.styled-checkbox-container {
+  position: fixed;
+  height: 24px;
+  left: 200px;
+  bottom: 0px;
+  font-family: helvetica neue,helvetica,Arial,sans-serif;
+  color: #fff;
+  display: block;
+  padding-left: 36px;
+  padding-right: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: 8px;
+  background-color: #25aff4;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.styled-checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.styled-checkmark {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  background-color: #fff;
+  transition: background-color .2s;
+}
+.styled-checkbox-container input:checked ~ .styled-checkmark {
+  background-color: #fff;
+}
+.styled-checkmark:after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+}
+.styled-checkbox-container input:checked ~ .styled-checkmark:after {
+  display: block;
+  background-color: #25aff4;
+}
+.styled-checkbox-container .styled-checkmark:after {
+  left: 5px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  transition: background-color .2s;
+}
 
 /*Language Select Styling*/
 .txlive-langselector {

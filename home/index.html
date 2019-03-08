@@ -40,7 +40,6 @@
 	    Scratch projects, users, studios and discussions.
 	  </h2>
           <div class="link-button unselectable" onclick="moveOut();">Shorten URL &emsp; &rarr;</div>
-	  <input type="checkbox" id="preview" onclick="updatePreview()"/>Preview links I click on<br/>
         </div>
         <div class="page-content" id="fillinPage">
           <h2>Enter Url</h2>
@@ -52,6 +51,11 @@
       </div>
     </div>
 
+    <label class="styled-checkbox-container">
+      <div>Preview links I click on</div>
+      <input type="checkbox" checked="checked" id="preview" onclick="updatePreview()">
+      <span class="styled-checkmark"></span>
+    </label>
 
     <img class="background-gobo" src="../files/gobo-color.svg" alt="gobo">
 
