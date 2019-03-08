@@ -11,7 +11,9 @@ var contribUsersList = {
     "appy9",
     "RainbowLegend",
     "Avantika-Didroy",
-    "jokari"
+    "jokari",
+    "locness3",
+    "MS72"
   ],
 
   content: {
@@ -73,6 +75,18 @@ var contribUsersList = {
       username: "Arav Narula",
       userid: "21000033",
       link: "https://github.com/IamTregsthedev",
+      team: "0"
+    },
+    MS72: {
+      username: "M-S-72",
+      userid: "46165762",
+      link: "https://github.com/M-S-72",
+      team: "0"
+    },
+    locness3: {
+      username: "Locness",
+      userid: "37651007",
+      link: "https://github.com/locness3",
       team: "0"
     },
     jamesbmadden: {
