@@ -207,7 +207,7 @@ select {
   height: 26px;
   left: 200px;
   bottom: 0px;
-  font-family: helvetica neue,helvetica,Arial,sans-serif;
+  font-family: helvetica neue, helvetica, Arial, sans-serif;
   color: #fff;
   display: block;
   padding-left: 36px;
@@ -236,7 +236,7 @@ select {
   width: 24px;
   border-radius: 12px;
   background-color: #fff;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 .styled-checkbox-container input:checked ~ .styled-checkmark {
   background-color: #fff;
@@ -256,7 +256,7 @@ select {
   width: 14px;
   height: 14px;
   border-radius: 7px;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
 /*Language Select Styling*/
