@@ -204,14 +204,14 @@ select {
 /*checkbox styling*/
 .styled-checkbox-container {
   position: fixed;
-  height: 24px;
+  height: 26px;
   left: 200px;
   bottom: 0px;
-  font-family: helvetica neue, helvetica, Arial, sans-serif;
+  font-family: helvetica neue,helvetica,Arial,sans-serif;
   color: #fff;
   display: block;
   padding-left: 36px;
-  padding-right: 8px;
+  padding-right: 10px;
   cursor: pointer;
   font-size: 14px;
   padding-top: 8px;
@@ -230,13 +230,13 @@ select {
 }
 .styled-checkmark {
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 6px;
+  left: 6px;
   height: 24px;
   width: 24px;
   border-radius: 12px;
   background-color: #fff;
-  transition: background-color 0.2s;
+  transition: background-color .2s;
 }
 .styled-checkbox-container input:checked ~ .styled-checkmark {
   background-color: #fff;
@@ -256,7 +256,7 @@ select {
   width: 14px;
   height: 14px;
   border-radius: 7px;
-  transition: background-color 0.2s;
+  transition: background-color .2s;
 }
 
 /*Language Select Styling*/
