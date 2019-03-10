@@ -63,7 +63,6 @@ function getCookie(cname) {
   return "false";
 }
 
-
 if (window.location.hash === "") {
   window.location.replace("./home/");
 } else {
