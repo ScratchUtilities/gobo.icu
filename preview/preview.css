@@ -1,0 +1,23 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-align: center;
+}
+
+body > div {
+  margin-top: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+body > div > div {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  margin-top: 24px;
+  color: #faa32d;
+  font-size: 34px;
+}

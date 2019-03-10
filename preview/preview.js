@@ -24,8 +24,8 @@ function preview(type, output) {
     link.href = output;
     link.innerText = output;
     document.body.innerHTML = "";
-    document.body.appendChild(main);
     document.body.appendChild(link);
+    document.body.appendChild(main);
   }
   switch (type) {
     case "u":
