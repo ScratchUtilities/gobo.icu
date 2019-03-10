@@ -4,7 +4,11 @@ function moveOut() {
 }
 
 function updatePreview() {
-  setCookie("preview", document.getElementById("preview-checkbox").checked, 3652.5);
+  setCookie(
+    "preview",
+    document.getElementById("preview-checkbox").checked,
+    3652.5
+  );
 }
 
 function setCookie(cname, cvalue, exdays) {
@@ -30,5 +34,6 @@ function getCookie(cname) {
 }
 
 function setup() {
-  document.getElementById("preview-checkbox").checked = (getCookie("preview") == "true");
+  document.getElementById("preview-checkbox").checked =
+    getCookie("preview") == "true";
 }
