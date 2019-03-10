@@ -204,7 +204,7 @@ select {
 /*checkbox styling*/
 .styled-checkbox-container {
   position: fixed;
-  height: 26px;
+  height: 27px;
   left: 200px;
   bottom: 0px;
   font-family: helvetica neue, helvetica, Arial, sans-serif;
@@ -214,7 +214,7 @@ select {
   padding-right: 10px;
   cursor: pointer;
   font-size: 14px;
-  padding-top: 8px;
+  padding-top: 9px;
   background-color: #25aff4;
   -webkit-user-select: none;
   -moz-user-select: none;
