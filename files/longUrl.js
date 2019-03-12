@@ -67,8 +67,9 @@ if (window.location.hash === "") {
   window.location.replace("./home/");
 } else {
   var output = longUrl(window.location.hash);
-  if (getCookie("preview") === "false") {
+  if (getCookie("preview") === "true") {
+    window.location.replace("/preview#" + window.location.hash[1] + output);
+  } else {
     window.location.replace(output);
   }
-  window.location.replace("/preview#" + window.location.hash[1] + output);
 }
