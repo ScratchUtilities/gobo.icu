@@ -203,6 +203,7 @@ select {
 }
 /*checkbox styling*/
 .styled-checkbox-container {
+  z-index: 3;
   position: fixed;
   height: 27px;
   left: 200px;
