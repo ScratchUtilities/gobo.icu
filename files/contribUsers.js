@@ -74,7 +74,7 @@ var contribUsersList = {
     IamTregsthedev: {
       username: "Arav Narula",
       userid: "21000033",
-      link: "https://github.com/IamTregsthedev",
+      link: "https://aravnarula.com",
       team: "0"
     },
     MS72: {
@@ -86,7 +86,7 @@ var contribUsersList = {
     locness3: {
       username: "Locness",
       userid: "37651007",
-      link: "https://github.com/locness3",
+      link: "https://locness3.github.io",
       team: "0"
     },
     jamesbmadden: {

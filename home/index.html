@@ -44,7 +44,7 @@
         <div class="page-content" id="fillinPage">
           <h2>Enter Url</h2>
           <input type="text" class="input-text-page" id="urlInput" onkeydown="if (event.keyCode === 13 || event.keyCode === 10){document.getElementById('shortUrlOutput').value = (shortenUrl(document.getElementById('urlInput').value));}"></input>
-          <div id="newUrlLabel">Shorted Url</div>
+          <div id="newUrlLabel">Shortened Url</div>
           <input onClick="this.select();" type="text" class="input-text-page" id="shortUrlOutput" readonly></input>
           <div class="text-end-button-holder"><button type="button" class="text-end-button" onclick="document.getElementById('shortUrlOutput').select();document.execCommand('copy');">Copy</button></div>
         </div>
@@ -53,8 +53,8 @@
 
     <label class="styled-checkbox-container">
       <div>Preview links I click on</div>
-      <input type="checkbox" checked="checked" id="preview" onclick="updatePreview()">
-      <span class="styled-checkmark"></span>
+      <input type="checkbox" checked="false" id="preview-checkbox" onclick="updatePreview()">
+      <span class="styled-checkmark" id="preview-checkmark"></span>
     </label>
 
     <img class="background-gobo" src="../files/gobo-color.svg" alt="gobo">
