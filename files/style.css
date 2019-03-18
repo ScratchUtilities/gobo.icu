@@ -242,22 +242,21 @@ select {
 .styled-checkbox-container input:checked ~ .styled-checkmark {
   background-color: #fff;
 }
-.styled-checkmark:after {
-  content: "";
+.styled-checkmark i {
   position: absolute;
-  background-color: #fff;
+  color: #fff;
 }
-.styled-checkbox-container input:checked ~ .styled-checkmark:after {
+.styled-checkbox-container input:checked ~ .styled-checkmark i {
   display: block;
-  background-color: #25aff4;
+  color: #25aff4;
 }
-.styled-checkbox-container .styled-checkmark:after {
+.styled-checkbox-container .styled-checkmark i {
   left: 5px;
   top: 5px;
   width: 14px;
   height: 14px;
   border-radius: 7px;
-  transition: background-color 0.2s;
+  transition: color 0.2s;
 }
 
 /*Language Select Styling*/
