@@ -18,7 +18,7 @@ function shortenUrl(url) {
         // post
         type = "o";
       }
-      if (url.includes("#")[1]) {
+      if (url.includes("#")) {
         // topic, but with post hash
         return (
           "http://gobo.cf#o" + base64.encode(url.split("#")[1].substring(5))
