@@ -9,7 +9,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      
+
       gtag('config', 'UA-135882802-1');
     </script>
     <!-- End Google Analytics -->
@@ -37,10 +37,11 @@
         <div class="page-content" id="landingPage">
           <h1>gobo.cf</h1>
           <h2>
-	    URL shortener for <br/>
-	    Scratch projects, users, studios and discussions.
-	  </h2>
-          <div class="link-button unselectable" onclick="moveOut();">Shorten URL &emsp; &rarr;</div>
+	           URL shortener for <br/>
+	           Scratch projects, users, studios and discussions.
+	       </h2>
+         <img alt="gobo and scratch-cat" src="/files/goboToScratch.svg" onclick="moveOut();" id="gobosvg-on-button">
+         <div class="link-button unselectable" onclick="moveOut();">Shorten URL &emsp; &rarr;</div>
         </div>
         <div class="page-content" id="fillinPage">
           <h2>Enter Url</h2>
@@ -57,8 +58,6 @@
       <input type="checkbox" checked="false" id="preview-checkbox" onclick="updatePreview()">
       <span class="styled-checkmark" id="preview-checkmark"><i class="fas fa-check"></i></span>
     </label>
-
-    <img class="background-gobo" src="../files/gobo-color.svg" alt="gobo">
 
     <img class="background-gobo" src="/files/gobo-color.svg" alt="gobo">
     <script src="/files/landingpage.js"></script>

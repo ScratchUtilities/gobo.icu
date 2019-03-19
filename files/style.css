@@ -115,6 +115,9 @@ h2 {
   color: #fff;
   background-color: #faa32d;
 }
+#gobosvg-on-button{
+  margin-bottom: -14px;
+}
 
 .input-text-page {
   width: calc(100% - 60px);
