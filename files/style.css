@@ -117,6 +117,7 @@ h2 {
 }
 #gobosvg-on-button {
   margin-bottom: -14px;
+  width: 360px;
 }
 
 .input-text-page {
@@ -295,4 +296,10 @@ select {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+@media only screen and (max-height: 800px) {
+  #landingPage {width: auto;}
+  h1 {margin-top: 0px; font-size: 80px;}
+  h2 {font-size: 30px;}
 }
