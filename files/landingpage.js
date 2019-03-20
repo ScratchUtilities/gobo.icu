@@ -2,6 +2,10 @@ function moveOut() {
   document.getElementById("landingPage").classList.add("move-out");
   document.getElementById("fillinPage").classList.add("move-in");
 }
+function moveBack() {
+  document.getElementById("fillinPage").classList.remove("move-in");
+  document.getElementById("landingPage").classList.remove("move-out");
+}
 
 function updatePreview() {
   setCookie(

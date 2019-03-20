@@ -56,20 +56,21 @@ body {
 #landingPage {
   transform: translateY(0%);
   transition: transform 1s;
+  transition-delay: 0.75s;
 }
 #landingPage.move-out {
   transform: translateY(100vh);
+  transition-delay: 0s;
 }
 #fillinPage {
   transform: translateY(100vh);
   transition: transform 1s;
-  transition-delay: 0.75s;
   width: 100%;
-  visibility: hidden;
+  transition-delay: 0s;
 }
 #fillinPage.move-in {
   transform: translateY(0%);
-  visibility: visible;
+  transition-delay: 0.75s;
 }
 h1 {
   font-size: 98px;
