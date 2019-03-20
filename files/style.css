@@ -300,7 +300,14 @@ select {
 }
 
 @media only screen and (max-height: 800px) {
-  #landingPage {width: auto;}
-  h1 {margin-top: 0px; font-size: 80px;}
-  h2 {font-size: 30px;}
+  #landingPage {
+    width: auto;
+  }
+  h1 {
+    margin-top: 0px;
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 30px;
+  }
 }
