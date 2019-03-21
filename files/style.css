@@ -86,24 +86,23 @@ h2 {
 #landingPage h2 {
   border-bottom: 6px solid #25aff4;
 }
-#fillinPage h2 {
-  border-bottom: none;
-  margin: 76px 0px 0px 0px;
-  z-index: 2;
-  position: absolute;
-  background-color: #fff;
-  padding: 0 4px 0 0;
-}
-#newUrlLabel {
+
+.inputLabel {
   z-index: 2;
   font-weight: bold;
   background-color: #fff;
+  position: absolute;
   color: #555;
   font-size: 36px;
   line-height: 40px;
+}
+#inputUrlLabel {
+  margin: 76px 0px 0px 0px;
+  padding: 0 4px 0 0;
+}
+#newUrlLabel {
   padding: 0 4px 0 0;
   margin: 274px 0px 0px 0px;
-  position: absolute;
 }
 .link-button {
   display: block;

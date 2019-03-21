@@ -44,9 +44,9 @@
          <div class="link-button unselectable" onclick="moveOut();">Shorten URL &emsp; &rarr;</div>
         </div>
         <div class="page-content" id="fillinPage">
-          <h2>Enter Url</h2>
+          <div class="inputLabel" id="inputUrlLabel">Enter Url</div>
           <input type="text" class="input-text-page" id="urlInput" onkeydown="if (event.keyCode === 13 || event.keyCode === 10){document.getElementById('shortUrlOutput').value = (shortenUrl(document.getElementById('urlInput').value));}"></input>
-          <div id="newUrlLabel">Shortened Url</div>
+          <div class="inputLabel" id="newUrlLabel">Shortened Url</div>
           <input onClick="this.select();" type="text" class="input-text-page" id="shortUrlOutput" readonly></input>
           <div class="text-end-button-holder"><button type="button" class="text-end-button" onclick="document.getElementById('shortUrlOutput').select();document.execCommand('copy');">Copy</button></div>
         </div>
