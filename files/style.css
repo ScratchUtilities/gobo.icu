@@ -175,6 +175,15 @@ select {
 .text-center {
   text-align: center;
 }
+/*About Page*/
+#makerad-top-right{
+  border: 0;
+  width: 320px;
+  height: 144px;
+  position: absolute;
+  top: 88px;
+  right: 20px;
+}
 
 /*Style for Contributors on About Page*/
 .contrib-user-holder {
