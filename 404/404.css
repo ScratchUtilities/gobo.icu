@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+}
+
+.content-align{
+  width: 100%;
+}
+.content{
+  margin: auto;
+  margin-top: 160px;
+  width: 502px;
+}
+
+#sad-gobo-img{
+  height: 280px;
+}
+.text-holder{
+  height: 280px;
+  width: 246px;
+  float: right;
+}
+
+.text-box{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#error-text{
+  color: #25aff4;
+  font-size: 128px;
+}
+#gobo-text{
+  color: #555;
+  font-size: 26px;
+}
+
+a{
+  color: #faa32d;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
