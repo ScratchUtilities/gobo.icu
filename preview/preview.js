@@ -164,7 +164,8 @@ function preview(type, output) {
         }
       );
       break;
+    default:
+      finish();
+      break;
   }
 }
-
-preview(window.location.hash[1], window.location.hash.slice(2));
