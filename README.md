@@ -18,6 +18,11 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 | #d  | To Discussion Topic | http://gobo.cf#d1kT0    |
 | #o  | To Discussion Post  | http://gobo.cf#ocT8I    |
 
+| Protocol | Domain          | Type       | Id        | Full Path                                 |
+| -------- | --------------- | ---------- | --------- | ----------------------------------------- |
+| http://  | scratch.mit.edu | /projects/ | 259993708 | http://scratch.mit.edu/projects/259993708 |
+| http://  | gobo.cf         | #p         | fvP1I     | http://gobo.cf#pfvP1I                     |
+
 ## Contributors
 
 Our current contributors:
