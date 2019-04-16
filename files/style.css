@@ -107,6 +107,14 @@ h2 {
   padding: 0 4px 0 0;
   margin: 274px 0px 0px 0px;
 }
+#inputUrlLabel-mf {
+  margin: 76px 0px 0px 0px;
+  padding: 0 4px 0 0;
+}
+#newUrlLabel-mf {
+  padding: 0 4px 0 0;
+  margin: 274px 0px 0px 0px;
+}
 .link-button {
   display: block;
   width: 350px;
@@ -155,6 +163,12 @@ h2 {
   border: 6px solid #1694d3;
   margin-top: 200px;
   font-size: 38px;
+  color: #faa32d;
+}
+#shortUrlOutput-mf {
+  border: 6px solid #1694d3;
+  margin-top: 200px;
+  font-size: 20px;
   color: #faa32d;
 }
 input,
@@ -308,6 +322,27 @@ select {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.mobileFallback{
+  display: none;
+}
+
+@media only screen and (max-width: 524px) {
+  body {overflow-y: auto;}
+  .background-gobo {display: none;}
+  .link-button {display: none;}
+  #gobosvg-on-button {display: none;}
+  #fillinPage {display: none;}
+  #landingPage {position: inherit;}
+  .mobileFallback {display: inherit;}
+  .page-content {width: 100%;}
+
+  #inputUrlLabel-mf {position: inherit; top: 0; margin-top: 10px;}
+  #urlInput-mf {position: inherit; top: 0; margin-top: 0px;}
+  #newUrlLabel-mf {position: inherit; top: 0; margin-top: 10px;}
+  #shortUrlOutput-mf {position: inherit; top: 0; margin-top: 0px;}
+  #text-end-button-holder-mf {position: inherit; top: 0; margin-top: -74px;}
 }
 
 @media only screen and (max-height: 800px) {

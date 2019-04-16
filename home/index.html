@@ -40,6 +40,11 @@
 	           URL shortener for <br/>
 	           Scratch projects, users, studios and discussions.
 	       </h2>
+         <div class="inputLabel mobileFallback" id="inputUrlLabel-mf">Enter Url</div>
+         <input type="text" class="input-text-page mobileFallback" id="urlInput-mf" onkeydown="if (event.keyCode === 13 || event.keyCode === 10){document.getElementById('shortUrlOutput-mf').value = (shortenUrl(document.getElementById('urlInput-mf').value));}"></input>
+         <div class="inputLabel mobileFallback" id="newUrlLabel-mf">Shortened Url</div>
+         <input onClick="this.select();" type="text" class="input-text-page mobileFallback" id="shortUrlOutput-mf" readonly></input>
+         <div id="text-end-button-holder-mf" class="text-end-button-holder mobileFallback"><button type="button" class="text-end-button" onclick="document.getElementById('shortUrlOutput-mf').select();document.execCommand('copy');">Copy</button></div>
          <img alt="gobo and scratch-cat" src="/files/scratchToGobo.svg" onclick="moveOut();" id="gobosvg-on-button">
          <div class="link-button unselectable" onclick="moveOut();">Shorten URL &emsp; &rarr;</div>
         </div>
