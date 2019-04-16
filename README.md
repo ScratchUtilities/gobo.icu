@@ -9,14 +9,14 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 
 ## Shortened URLs
 
-| URL | Function            |
-| --- | ------------------- |
-| #u  | To User Page        |
-| #s  | To Studio Page      |
-| #p  | To Project Page     |
-| #e  | To Project Editor   |
-| #d  | To Discussion Topic |
-| #o  | To Discussion Post  |
+| URL | Function            | Example URL             |
+| --- | ------------------- | ----------------------- |
+| #u  | To User Page        | http://gobo.cf#uAndreto |
+| #s  | To Studio Page      | http://gobo.cf#slYXm    |
+| #p  | To Project Page     | http://gobo.cf#pfvP1I   |
+| #e  | To Project Editor   | http://gobo.cf#efvP1I   |
+| #d  | To Discussion Topic | http://gobo.cf#d1kT0    |
+| #o  | To Discussion Post  | http://gobo.cf#ocT8I    |
 
 ## Contributors
 
