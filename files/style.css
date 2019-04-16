@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 
 .menu {
@@ -75,7 +76,9 @@ body {
 h1 {
   font-size: 98px;
   margin-bottom: 12px;
+  margin-top: 12px;
   color: #faa32d;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 h2 {
   padding-bottom: 20px;
