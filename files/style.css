@@ -112,7 +112,6 @@ h2 {
 }
 #inputUrlLabel-mf {
   padding: 0 4px 0 0;
-
 }
 #newUrlLabel-mf {
   padding: 0 4px 0 0;
@@ -359,7 +358,7 @@ select {
     top: 0;
     margin-top: -74px;
   }
-  .styled-checkbox-container{
+  .styled-checkbox-container {
     left: 0px;
     width: 100%;
   }
@@ -367,7 +366,6 @@ select {
     left: 0px !important;
     bottom: 36px !important;
     width: 100% !important;
-
   }
 }
 
