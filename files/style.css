@@ -3,6 +3,9 @@ body {
   overflow-x: hidden;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
+.homepage-body {
+  overflow-y: hidden;
+}
 
 .menu {
   z-index: 3;
@@ -108,12 +111,12 @@ h2 {
   margin: 274px 0px 0px 0px;
 }
 #inputUrlLabel-mf {
-  margin: 76px 0px 0px 0px;
   padding: 0 4px 0 0;
+
 }
 #newUrlLabel-mf {
   padding: 0 4px 0 0;
-  margin: 274px 0px 0px 0px;
+  margin-top: 20px;
 }
 .link-button {
   display: block;
@@ -167,7 +170,6 @@ h2 {
 }
 #shortUrlOutput-mf {
   border: 6px solid #1694d3;
-  margin-top: 200px;
   font-size: 20px;
   color: #faa32d;
 }
@@ -329,55 +331,43 @@ select {
 }
 
 @media only screen and (max-width: 524px) {
-  body {
+  .homepage-body {
     overflow-y: auto;
   }
-  .background-gobo {
-    display: none;
+  .page-content-adjuster {
+    position: inherit;
   }
-  .link-button {
-    display: none;
-  }
-  #gobosvg-on-button {
-    display: none;
-  }
-  #fillinPage {
+  .mf-hide {
     display: none;
   }
   #landingPage {
     position: inherit;
+    margin-bottom: 102px;
   }
   .mobileFallback {
     display: inherit;
+    position: inherit;
+    top: 0;
+    margin-top: 0px;
   }
   .page-content {
     width: 100%;
   }
 
-  #inputUrlLabel-mf {
-    position: inherit;
-    top: 0;
-    margin-top: 10px;
-  }
-  #urlInput-mf {
-    position: inherit;
-    top: 0;
-    margin-top: 0px;
-  }
-  #newUrlLabel-mf {
-    position: inherit;
-    top: 0;
-    margin-top: 10px;
-  }
-  #shortUrlOutput-mf {
-    position: inherit;
-    top: 0;
-    margin-top: 0px;
-  }
   #text-end-button-holder-mf {
     position: inherit;
     top: 0;
     margin-top: -74px;
+  }
+  .styled-checkbox-container{
+    left: 0px;
+    width: 100%;
+  }
+  .txlive-langselector {
+    left: 0px !important;
+    bottom: 36px !important;
+    width: 100% !important;
+
   }
 }
 
