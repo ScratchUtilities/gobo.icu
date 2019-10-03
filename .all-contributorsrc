@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Smilingouido",
+      "name": "Smilingouido",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43038996?v=4",
+      "profile": "https://www.scratch.mit.edu/users/Smilingouido",
+      "contributions": [
+        "translation"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "gobo.cf",
+  "projectOwner": "ScratchUtilities",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
