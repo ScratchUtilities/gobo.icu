@@ -1,4 +1,5 @@
 # Gobo.cf
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![GitHub issues](https://img.shields.io/github/issues/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/issues)
@@ -35,6 +36,7 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 </table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
 Our current contributors:
 
 - [@Chexbox](https://github.com/Chexbox)
