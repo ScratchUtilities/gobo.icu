@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "jsedano",
+      "name": "Juan Sedano",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4958726?v=4",
+      "profile": "http://twitter.com/weirderror",
+      "contributions": [
+        "translation"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "gobo.cf",
+  "projectOwner": "ScratchUtilities",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
