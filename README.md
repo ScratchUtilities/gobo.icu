@@ -32,6 +32,7 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 <table>
   <tr>
     <td align="center"><a href="http://locness3.github.io"><img src="https://avatars1.githubusercontent.com/u/37651007?v=4" width="100px;" alt="Locness"/><br /><sub><b>Locness</b></sub></a><br /><a href="#translation-locness3" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://andreto.tk"><img src="https://avatars0.githubusercontent.com/u/28541538?v=4" width="100px;" alt="Andreas Törnkvist"/><br /><sub><b>Andreas Törnkvist</b></sub></a><br /><a href="#translation-Andreto" title="Translation">🌍</a></td>
   </tr>
 </table>
 
