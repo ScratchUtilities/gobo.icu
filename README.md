@@ -31,12 +31,12 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 <!-- prettier-ignore -->
 <table>
   <tr>
+    <td align="center"><a href="https://andreto.tk"><img src="https://avatars0.githubusercontent.com/u/28541538?v=4" width="100px;" alt="Andreas Törnkvist"/><br /><sub><b>Andreas Törnkvist</b></sub></a><br /><a href="#translation-Andreto" title="Translation">🌍</a> <a href="https://github.com/ScratchUtilities/gobo.cf/commits?author=Andreto" title="Code">💻</a></td>
     <td align="center"><a href="http://twitter.com/weirderror"><img src="https://avatars0.githubusercontent.com/u/4958726?v=4" width="100px;" alt="Juan Sedano"/><br /><sub><b>Juan Sedano</b></sub></a><br /><a href="#translation-jsedano" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/FarzanHosseini"><img src="https://avatars2.githubusercontent.com/u/20372041?v=4" width="100px;" alt="Farzan"/><br /><sub><b>Farzan</b></sub></a><br /><a href="#translation-FarzanHosseini" title="Translation">🌍</a></td>
     <td align="center"><a href="https://www.scratch.mit.edu/users/Smilingouido"><img src="https://avatars1.githubusercontent.com/u/43038996?v=4" width="100px;" alt="Smilingouido"/><br /><sub><b>Smilingouido</b></sub></a><br /><a href="#translation-Smilingouido" title="Translation">🌍</a></td>
     <td align="center"><a href="http://M-S-72.github.io"><img src="https://avatars3.githubusercontent.com/u/46165762?v=4" width="100px;" alt="M. S. "/><br /><sub><b>M. S. </b></sub></a><br /><a href="#translation-M-S-72" title="Translation">🌍</a></td>
     <td align="center"><a href="http://locness3.github.io"><img src="https://avatars1.githubusercontent.com/u/37651007?v=4" width="100px;" alt="Locness"/><br /><sub><b>Locness</b></sub></a><br /><a href="#translation-locness3" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://andreto.tk"><img src="https://avatars0.githubusercontent.com/u/28541538?v=4" width="100px;" alt="Andreas Törnkvist"/><br /><sub><b>Andreas Törnkvist</b></sub></a><br /><a href="#translation-Andreto" title="Translation">🌍</a></td>
   </tr>
 </table>
 
