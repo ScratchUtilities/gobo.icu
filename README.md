@@ -1,7 +1,4 @@
 # Gobo.cf
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
-
 [![GitHub issues](https://img.shields.io/github/issues/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/issues)
 [![GitHub stars](https://img.shields.io/github/stars/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/stargazers)
 
@@ -20,40 +17,32 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 | #d  | To Discussion Topic | http://gobo.cf#d1kT0    |
 | #o  | To Discussion Post  | http://gobo.cf#ocT8I    |
 
-| Protocol | Domain          | Type       | Id        | Full Path                                 |
-| -------- | --------------- | ---------- | --------- | ----------------------------------------- |
-| http://  | scratch.mit.edu | /projects/ | 259993708 | http://scratch.mit.edu/projects/259993708 |
-| http://  | gobo.cf         | #p         | fvP1I     | http://gobo.cf#pfvP1I                     |
+| Protocol | Domain          | Type       | Id        | Full Path                                 | Total Characters |
+| -------- | --------------- | ---------- | --------- | ----------------------------------------- | ---------------- |
+| http://  | scratch.mit.edu | /projects/ | 259993708 | http://scratch.mit.edu/projects/259993708 | 41               |
+| http://  | gobo.cf         | #p         | fvP1I     | http://gobo.cf#pfvP1I                     | 21               |
 
 ## Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://andreto.tk"><img src="https://avatars0.githubusercontent.com/u/28541538?v=4" width="100px;" alt="Andreas Törnkvist"/><br /><sub><b>Andreas Törnkvist</b></sub></a><br /><a href="#translation-Andreto" title="Translation">🌍</a> <a href="https://github.com/ScratchUtilities/gobo.cf/commits?author=Andreto" title="Code">💻</a></td>
-    <td align="center"><a href="http://twitter.com/weirderror"><img src="https://avatars0.githubusercontent.com/u/4958726?v=4" width="100px;" alt="Juan Sedano"/><br /><sub><b>Juan Sedano</b></sub></a><br /><a href="#translation-jsedano" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/FarzanHosseini"><img src="https://avatars2.githubusercontent.com/u/20372041?v=4" width="100px;" alt="Farzan"/><br /><sub><b>Farzan</b></sub></a><br /><a href="#translation-FarzanHosseini" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://www.scratch.mit.edu/users/Smilingouido"><img src="https://avatars1.githubusercontent.com/u/43038996?v=4" width="100px;" alt="Smilingouido"/><br /><sub><b>Smilingouido</b></sub></a><br /><a href="#translation-Smilingouido" title="Translation">🌍</a></td>
-    <td align="center"><a href="http://M-S-72.github.io"><img src="https://avatars3.githubusercontent.com/u/46165762?v=4" width="100px;" alt="M. S. "/><br /><sub><b>M. S. </b></sub></a><br /><a href="#translation-M-S-72" title="Translation">🌍</a></td>
-    <td align="center"><a href="http://locness3.github.io"><img src="https://avatars1.githubusercontent.com/u/37651007?v=4" width="100px;" alt="Locness"/><br /><sub><b>Locness</b></sub></a><br /><a href="#translation-locness3" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/yanicka"><img src="https://avatars3.githubusercontent.com/u/48929391?v=4" width="100px;" alt="yanicka"/><br /><sub><b>yanicka</b></sub></a><br /><a href="#translation-yanicka" title="Translation">🌍</a></td>
-  </tr>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-Our current contributors:
+Everyone listed below has contributed to the project either by directly commiting changes, creating issues, or translating the project.
 
 - [@Chexbox](https://github.com/Chexbox)
 - [@jokari](https://github.com/jokari)
 - [@RainbowLegend](https://github.com/RainbowLegend)
 - [@appy9](https://github.com/appy9)
-- [@Avantika-Didroy](Avantika-Didroy)
-- [@keithieopia](keithieopia)
+- [@Avantika-Didroy](https://github.com/Avantika-Didroy)
+- [@keithieopia](https://github.com/keithieopia)
 - [@Andreto](https://andreto.tk)
 - [@space-elephant](https://github.com/space-elephant)
-- [@Tregsthedev](https://github.com/Iamtregsthedev)
+- [@IamTregsthedev](https://github.com/IamTregsthedev)
 - [@jamesbmadden](https://github.com/jamesbmadden)
+- [@yanicka](https://github.com/yanicka)
+- [@ncomendant](https://github.com/ncomendant)
+- [@locness](https://github.com/locness3)
+- [@M-S-72](https://github.com/M-S-72)
+- [@Smilingouido](https://github.com/Smilingouido)
+- [@FarzanHosseini](https://github.com/FarzanHosseini)
+- [@jsedano](https://github.com/jsedano)
+- [@brunopulis](https://github.com/brunopulis)
+- [@imbdb](https://github.com/imbdb)
 
 See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
