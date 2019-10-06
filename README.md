@@ -1,4 +1,5 @@
 # Gobo.cf
+
 [![GitHub issues](https://img.shields.io/github/issues/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/issues)
 [![GitHub stars](https://img.shields.io/github/stars/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/stargazers)
 
@@ -23,6 +24,7 @@ Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](ht
 | http://  | gobo.cf         | #p         | fvP1I     | http://gobo.cf#pfvP1I                     | 21               |
 
 ## Contributors
+
 Everyone listed below has contributed to the project either by directly commiting changes, creating issues, or translating the project.
 
 - [@Chexbox](https://github.com/Chexbox)
