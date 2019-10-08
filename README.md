@@ -47,5 +47,6 @@ Everyone listed below has contributed to the project either by directly commitin
 - [@brunopulis](https://github.com/brunopulis)
 - [@imbdb](https://github.com/imbdb)
 - [@mantasio](https://github.com/mantasio)
+- [@pjgeutjens](https://github.com/pjgeutjens)
 
 See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
