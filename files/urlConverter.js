@@ -21,7 +21,7 @@ function shortenUrl(url) {
       if (url.includes("#")) {
         // topic, but with post hash
         return (
-          "http://gobo.cf#o" + base64.encode(url.split("#")[1].substring(5))
+          "http://scratchutilities.github.io/gobo.cf/#o" + base64.encode(url.split("#")[1].substring(5))
         );
       }
     } else {
@@ -31,9 +31,9 @@ function shortenUrl(url) {
       id = base64.encode(id);
     }
     if (type == "p" && split[2] == "editor") {
-      return "http://gobo.cf#e" + id;
+      return "http://scratchutilities.github.io/gobo.cf/#e" + id;
     } else {
-      return "http://gobo.cf#" + type + id;
+      return "http://scratchutilities.github.io/gobo.cf/#" + type + id;
     }
   } else {
     return "Invalid URL";
