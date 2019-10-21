@@ -57,5 +57,6 @@ Everyone listed below has contributed to the project either by directly commitin
 - [@pjgeutjens](https://github.com/pjgeutjens)
 - [@Ph1lbert](https://github.com/Ph1lbert)
 - [@NotRealPaz](https://github.com/NotRealPaz)
+- [@munex-com](https://github.com/munex-com)
 
 See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
