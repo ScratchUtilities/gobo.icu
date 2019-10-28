@@ -4,10 +4,6 @@ Gobo.cf has been taken over by a third party. **Do not use the gobo.cf domain fo
 content at this time. Please instead use https://scratchutilities.github.io/gobo.cf/ - sorry for the inconvenience.
 
 # Gobo.cf
-
-[![GitHub issues](https://img.shields.io/github/issues/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/issues)
-[![GitHub stars](https://img.shields.io/github/stars/ScratchUtilities/gobo.cf.svg)](https://github.com/ScratchUtilities/gobo.cf/stargazers)
-
 ## What is Gobo.cf?
 
 Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](https://scratch.mit.edu/users/Thermodynamical)
