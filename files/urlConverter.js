@@ -1,7 +1,7 @@
 function shortenUrl(url) {
-  if (url.includes("scratch.mit.edu/")) {
+  if (url.includes("scratch.mit.edu/" "scratch.org/")) {
     var split = url
-      .substring(url.indexOf("scratch.mit.edu/") + 16, url.length)
+      .substring(url.indexOf("scratch.mit.edu/" "scratch.org/") + 16, url.length)
       .split("/");
     var types = {
       users: "u",
