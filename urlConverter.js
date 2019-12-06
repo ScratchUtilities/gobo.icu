@@ -21,7 +21,8 @@ function shortenUrl(url) {
       if (url.includes("#")) {
         // topic, but with post hash
         return (
-          "http://scratchutilities.github.io/gobo.cf/#o" + base64.encode(url.split("#")[1].substring(5))
+          "http://scratchutilities.github.io/gobo.cf/#o" +
+          base64.encode(url.split("#")[1].substring(5))
         );
       }
     } else {
