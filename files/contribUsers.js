@@ -26,7 +26,7 @@ var contribUsersList = {
     Andreto: {
       username: "Andreto",
       userid: "28541538",
-      link: "https://andreto.tk",
+      link: "https://andreto.github.io/",
       team: "1"
     },
     Chexbox: {
