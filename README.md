@@ -37,7 +37,7 @@ Everyone listed below has contributed to the project either by directly commitin
 - [@appy9](https://github.com/appy9)
 - [@Avantika-Didroy](https://github.com/Avantika-Didroy)
 - [@keithieopia](https://github.com/keithieopia)
-- [@Andreto](https://andreto.tk)
+- [@Andreto](https://github.com/andreto)
 - [@space-elephant](https://github.com/space-elephant)
 - [@IamTregsthedev](https://github.com/IamTregsthedev)
 - [@jamesbmadden](https://github.com/jamesbmadden)
