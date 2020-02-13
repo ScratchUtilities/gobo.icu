@@ -3,7 +3,6 @@ var contribUsersList = {
     "KennethSweezy",
     "Andreto",
     "space-elephant",
-    "br",
     "IamTregsthedev",
     "jamesbmadden",
     "Chexbox",
@@ -75,7 +74,7 @@ var contribUsersList = {
       username: "Arav Narula",
       userid: "21000033",
       link: "https://aravnarula.com",
-      team: "0"
+      team: "1"
     },
     MS72: {
       username: "M-S-72",
