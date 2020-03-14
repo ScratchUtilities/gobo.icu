@@ -4,10 +4,12 @@ var contribUsersList = {
     "Andreto",
     "space-elephant",
     "IamTregsthedev",
+        "br",
     "jamesbmadden",
     "Chexbox",
     "ncomendant",
     "appy9",
+        "br",
     "RainbowLegend",
     "Avantika-Didroy",
     "jokari",
@@ -44,19 +46,19 @@ var contribUsersList = {
       username: "ncomendant",
       userid: "3222456",
       link: "https://github.com/ncomendant",
-      team: "0"
+      team: "2"
     },
     appy9: {
       username: "appy9",
       userid: "15341869",
       link: "https://github.com/appy9",
-      team: "0"
+      team: "2"
     },
     RainbowLegend: {
       username: "RainbowLegend",
       userid: "26859432",
       link: "https://github.com/RainbowLegend",
-      team: "0"
+      team: "2"
     },
     "Avantika-Didroy": {
       username: "Avantika-Didroy",
@@ -68,7 +70,7 @@ var contribUsersList = {
       username: "jokari",
       userid: "11021734",
       link: "https://github.com/jokari",
-      team: "0"
+      team: "2"
     },
     IamTregsthedev: {
       username: "Arav Narula",
@@ -86,13 +88,13 @@ var contribUsersList = {
       username: "Locness",
       userid: "37651007",
       link: "https://locness3.github.io",
-      team: "0"
+      team: "2"
     },
     jamesbmadden: {
       username: "jamesbmadden",
       userid: "39145924",
       link: "https://github.com/jamesbmadden",
-      team: "0"
+      team: "2"
     }
   }
 };
