@@ -8,8 +8,8 @@ Gobo.icu is a URL Shortener For Scratch Projects.
 
 _Please remember that the gobo.icu domain is not under our control at this time. Please instead use https://scratchutilities.github.io/gobo.icu/_
 
-| URL | Function            | Example URL             |
-| --- | ------------------- | ----------------------- |
+| URL | Function            | Example URL              |
+| --- | ------------------- | ------------------------ |
 | #u  | To User Page        | http://gobo.icu#uAndreto |
 | #s  | To Studio Page      | http://gobo.icu#slYXm    |
 | #p  | To Project Page     | http://gobo.icu#pfvP1I   |
@@ -20,7 +20,7 @@ _Please remember that the gobo.icu domain is not under our control at this time.
 | Protocol | Domain          | Type       | Id        | Full Path                                 | Total Characters |
 | -------- | --------------- | ---------- | --------- | ----------------------------------------- | ---------------- |
 | http://  | scratch.mit.edu | /projects/ | 259993708 | http://scratch.mit.edu/projects/259993708 | 41               |
-| http://  | gobo.icu         | #p         | fvP1I     | http://gobo.icu#pfvP1I                     | 22               |
+| http://  | gobo.icu        | #p         | fvP1I     | http://gobo.icu#pfvP1I                    | 22               |
 
 ## Contributors
 
