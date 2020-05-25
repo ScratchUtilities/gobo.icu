@@ -1,31 +1,26 @@
-# WARNING!
+# Gobo.icu
 
-Gobo.cf has been taken over by a third party. **Do not use the gobo.cf domain for the time being**. We're not responsible for gobo.cf's
-content at this time. Please instead use https://scratchutilities.github.io/gobo.cf/ - sorry for the inconvenience.
+## What is Gobo.icu?
 
-# Gobo.cf
-
-## What is Gobo.cf?
-
-Gobo.cf is a URL Shortener For Scratch Projects started by [@Thermodynamical](https://scratch.mit.edu/users/Thermodynamical)
+Gobo.icu is a URL Shortener For Scratch Projects.
 
 ## Shortened URLs
 
-_Please remember that the gobo.cf domain is not under our control at this time. Please instead use https://scratchutilities.github.io/gobo.cf/_
+_Please remember that the gobo.icu domain is not under our control at this time. Please instead use https://scratchutilities.github.io/gobo.icu/_
 
 | URL | Function            | Example URL             |
 | --- | ------------------- | ----------------------- |
-| #u  | To User Page        | http://gobo.cf#uAndreto |
-| #s  | To Studio Page      | http://gobo.cf#slYXm    |
-| #p  | To Project Page     | http://gobo.cf#pfvP1I   |
-| #e  | To Project Editor   | http://gobo.cf#efvP1I   |
-| #d  | To Discussion Topic | http://gobo.cf#d1kT0    |
-| #o  | To Discussion Post  | http://gobo.cf#ocT8I    |
+| #u  | To User Page        | http://gobo.icu#uAndreto |
+| #s  | To Studio Page      | http://gobo.icu#slYXm    |
+| #p  | To Project Page     | http://gobo.icu#pfvP1I   |
+| #e  | To Project Editor   | http://gobo.icu#efvP1I   |
+| #d  | To Discussion Topic | http://gobo.icu#d1kT0    |
+| #o  | To Discussion Post  | http://gobo.icu#ocT8I    |
 
 | Protocol | Domain          | Type       | Id        | Full Path                                 | Total Characters |
 | -------- | --------------- | ---------- | --------- | ----------------------------------------- | ---------------- |
 | http://  | scratch.mit.edu | /projects/ | 259993708 | http://scratch.mit.edu/projects/259993708 | 41               |
-| http://  | gobo.cf         | #p         | fvP1I     | http://gobo.cf#pfvP1I                     | 21               |
+| http://  | gobo.icu         | #p         | fvP1I     | http://gobo.icu#pfvP1I                     | 22               |
 
 ## Contributors
 
@@ -56,4 +51,4 @@ Everyone listed below has contributed to the project either by directly commitin
 - [@NotRealPaz](https://github.com/NotRealPaz)
 - [@munex-com](https://github.com/munex-com)
 
-See [the contribution guide](https://github.com/ScratchUtilities/gobo.cf/blob/master/PULL_REQUEST_TEMPLATE.md).
+See [the contribution guide](https://github.com/ScratchUtilities/gobo.icu/blob/master/PULL_REQUEST_TEMPLATE.md).
