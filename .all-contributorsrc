@@ -8,9 +8,14 @@
     {
       "login": "jsedano",
       "name": "Juan Sedano",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/4958726?v=4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21000033?s=460&u=c9da6cfcfadd14cb9a410141caa94a458142dc1b&v=4"
       "profile": "http://twitter.com/weirderror",
-    },{
+      
+    },{ "login": "Arav",
+      "name": "Arav Narula",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4958726?v=4",
+      "profile": "http://twitter.com/tregsthedev",
+    },
       "login": "FarzanHosseini",
       "name": "Farzan",
       "avatar_url": "https://avatars2.githubusercontent.com/u/20372041?v=4",

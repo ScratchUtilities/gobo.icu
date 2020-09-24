@@ -3,20 +3,10 @@
   <head>
     <script src="../files/urlConverter.js"></script>
     <script src="../files/landingpage.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135882802-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-135882802-1');
-    </script>
-    <!-- End Google Analytics -->
     <script src="/files/urlConverter.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>URL shortener for Scratch</title>
+    <title>Gobo.icu | URL shortener for Scratch</title>
     <link href="../files/style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="../files/gobo.ico">
 	
@@ -36,7 +26,7 @@
     <div class="page">
       <div class="page-content-adjuster">
         <div class="page-content" id="landingPage">
-          <h1>gobo.cf</h1>
+          <h1>gobo.icu</h1>
           <h2>
 	           URL shortener for <br/>
 	           Scratch projects, users, studios and discussions.
@@ -46,7 +36,7 @@
          <div class="inputLabel mobileFallback" id="newUrlLabel-mf">Shortened Url</div>
          <input onClick="this.select();" type="text" class="input-text-page mobileFallback" id="shortUrlOutput-mf" readonly></input>
          <div id="text-end-button-holder-mf" class="text-end-button-holder mobileFallback"><button type="button" class="text-end-button" onclick="document.getElementById('shortUrlOutput-mf').select();document.execCommand('copy');">Copy</button></div>
-         <img class="mf-hide" alt="gobo and scratch-cat" src="/files/scratchToGobo.svg" onclick="moveOut();" id="gobosvg-on-button">
+         <img class="mf-hide" src="/files/scratchToGobo.svg" click=moveOut(); id="gobosvg-on-button">
          <div class="link-button unselectable mf-hide" onclick="moveOut();">Shorten URL &emsp; &rarr;</div>
         </div>
         <div class="page-content mf-hide" id="fillinPage">

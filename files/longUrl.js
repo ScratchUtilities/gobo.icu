@@ -25,12 +25,12 @@ const base64 = {
 
 function longUrl(hash) {
   var urlStarts = {
-    u: "https://scratch.mit.edu/users/",
-    p: "https://scratch.mit.edu/projects/",
-    e: "editor",
-    s: "https://scratch.mit.edu/studios/",
-    d: "https://scratch.mit.edu/discuss/topic/",
-    o: "https://scratch.mit.edu/discuss/post/"
+    u: "https://scratch.mit.edu/users/ || "https://scratch.org/users/",
+    p: "https://scratch.mit.edu/projects || "https://scratch.org/projects/",
+    e: "https://scratch.mit.edu/editor || "https://scratch.org/editor/",
+    s:  "https://scratch.mit.edu/studio || "https://scratch.org/studio/",
+    d: "https://scratch.mit.edu/dicusss|| "https://scratch.org/discuss/",
+    o: "https://scratch.mit.edu/posts|| "https://scratch.org/post/",
   };
   var type = urlStarts[hash[1]];
   if (type == "https://scratch.mit.edu/users/") {
